@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <!-- =========== CSS =========== -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- =========== CDN FONT AWESOME =========== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    ></link>
+
+    <title>Web CV Nabila Hajaroh Hasanatun</title>
+  </head>
+
+
+  <body>
+    <div id="container">
+      <!-- =========== PROFILE SIDE BAR =========== -->
+      <div id="profile">
+        <div id="image">
+          <img
+            id="profile-photo"
+            src="https://iili.io/J6zHer7.jpg"
+            alt="Profile-Image"
+          />
+          <a href="#"><i class="fas fa-pen stroke-transparent"></i></a>
+        </div>
+        <p id="name">
+          Nabila Hajaroh Hasanatun<br /><span id="email"
+            >2225230058@untirta.ac.id</span
+          >
+        </p>
+        <p id="designation">
+          Mathematics Education Student Student<br /><span id="college"
+            >Sultan Ageng Tirtayasa University</span
+          >
+        </p>
+        <div id="social-links">
+          <a href="https://www.facebook.com/profile.php?id=100010387308641" target="_blank"><i class="fab fa-facebook-f stroke-transparent"></i></a>
+          <a href="https://twitter.com/NHajaroh" target="_blank"><i class="fab fa-twitter stroke-transparent"></i></a>
+          <a href="https://www.instagram.com/nabila_hjr" target="_blank"><i class="fab fa-instagram stroke-transparent"></i></a>
+          <a href="https://github.com/nabila-hajaroh1502" target="_blank"><i class="fab fa-github stroke-transparent"></i></a>
+        </div>
+
+        <!-- =========== ABOUT =========== -->
+        <hr width="100%" />
+        <div id="about">
+          <p style="display: inline">About Me</p>
+        </div>
+        <p id="education">
+          <strong>Profile<br /></strong> I am a student majoring in mathematics education class of 2023 at Sultan Ageng Tirtayasa University. with the imagination and creativity that I have, I can produce beautiful work. I also like learning new things. and I have an interest in design and mathematics.
+        </p>
+        <p id="more-about">
+          <strong> Motto</strong><br />Dont give up, Let's try again
+        </p>
+        <p id="more-about">
+            <strong> Skills</strong><br />
+            Microsoft Word<br />
+            Microsoft Excel<br />
+            Microsoft Power Point<br />
+            Canva<br />
+            Capcut<br />
+            Google Docs<br />
+            HTML<br />
+          </p>
+          <p id="more-about">
+            <strong> Interest</strong><br />
+            Music<br />
+            Food & Cook<br />
+            Pets<br />
+            Draw<br />
+            Digital Art<br />
+            Game<br />
+          </p>
+          <p id="more-about">
+            <strong> Language</strong><br />
+            Indonesian<br />
+            English<br />
+            Arabic<br />
+            Japanese<br />
+          </p>
+        <p id="telephone"><strong>Telephone<br /></strong>085693735009</p>
+      </div>
+
+      <!-- =========== CARD =========== -->
+      <div id="info-cards">
+
+        <!-- =========== CARD EXPERINCE =========== -->
+        <div class="card" >
+          <p>
+            <i class="fas fa-briefcase stroke-transparent"></i>&nbsp;&nbsp;&nbsp;
+            Experience
+          </p>
+          <ul>
+            <li>
+              <p class="tags">
+                OPPMA Al-Bayan<br /><span
+                  >Leader of Language Department <span>2020-2022</span></span
+                >
+              </p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <p class="tags">
+                UKM AKMI Untirta<br /><span
+                  >Member of Syi'ar Department <span>2023-now</span></span
+                >
+              </p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <p class="tags">
+                Math Club<br /><span
+                  >Member <span>2024-now</span></span
+                >
+              </p>
+            </li>
+          </ul>
+          <a href="#" onclick="addExperience(event)">+ Add work experience, including contracts and internships</a>
+        </div>
+
+        <!-- =========== CARD WORKSHOP =========== -->
+        <div class="card">
+            <p>
+                <i class="fas fa-certificate stroke-transparent"></i>&nbsp;&nbsp;&nbsp;
+                Certificate
+              </p>
+              <ul>
+                <li>
+                    <p class="tags">
+                        Participated in Lomba LVPKM<br /><span
+                          >I was once participated in Lomba LVPKM when Mathematics Departement held an event called SEMATA </span
+                        >
+                      </p>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <p class="tags">
+                        Got 8th place in Lomba KTI CEF<br /><span
+                          >I was once appointed as one of the school representatives in Lomba KTI Nasional CEF</span
+                        >
+                      </p>
+                </li>
+              </ul>
+        </div>
+
+        <!-- =========== CARD EDUCATION =========== -->
+
+        <div class="card" >
+            <p>
+              <i class="fas fa-school stroke-transparent"></i>&nbsp;&nbsp;&nbsp;
+              Education
+            </p>
+            <ul>
+              <li>
+                <p class="tags">
+                    University Lecture<br /><span
+                      >Sultan Ageng Tirtayasa University <span><br />2023-now</span></span
+                    >
+                  </p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <p class="tags">
+                    Senior High School<br /><span
+                      >SMAS An-Najah <span><br />2020-2023</span></span
+                    >
+                  </p>
+              </li>
+            </ul>
+            <ul>
+                <li>
+                  <p class="tags">
+                      Junior High School<br /><span
+                        >SMPI Al-Hilal <span><br />2017-2020</span></span
+                      >
+                    </p>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <p class="tags">
+                      Elementary School<br /><span
+                        >SDIT Nurul Fikri <span><br />2011-2017</span></span
+                      >
+                    </p>
+                </li>
+              </ul>
+
+          </div>
+      </div>
+    </div>
+
+    <!-- =========== SCRIPT JS =========== -->
+    <script src="./index.js"></script>
+  </body>
+</html>
